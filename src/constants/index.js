@@ -4,25 +4,21 @@ import {
   creator,
   web,
   javascript,
-  typescript,
   html,
   css,
   reactjs,
-  redux,
   tailwind,
   nodejs,
   mongodb,
   git,
-  figma,
-  docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
+  python,
+  svelte,
+  rails,
+  scss,
+  simplenexus,
+  peachtree,
+  tomodachi,
   tripguide,
-  threejs,
 } from "../assets";
 
 export const navLinks = [
@@ -54,7 +50,7 @@ const services = [
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Software Engineer",
     icon: creator,
   },
 ];
@@ -73,16 +69,16 @@ const technologies = [
     icon: javascript,
   },
   {
-    name: "TypeScript",
-    icon: typescript,
+    name: "Ruby on Rails",
+    icon: rails,
+  },
+  {
+    name: "Python",
+    icon: python,
   },
   {
     name: "React JS",
     icon: reactjs,
-  },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
   },
   {
     name: "Tailwind CSS",
@@ -97,74 +93,31 @@ const technologies = [
     icon: mongodb,
   },
   {
-    name: "Three JS",
-    icon: threejs,
+    name: "Svelte Kit",
+    icon: svelte,
   },
   {
     name: "git",
     icon: git,
   },
   {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
-  },
+    name: "scss",
+    icon: scss,
+  }
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Software Engineer",
+    company_name: "SimpleNexus",
+    icon: simplenexus,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "January 2021 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed and maintained backend systems using Ruby on Rails.",
+      "Wrote clean, stable, and maintainable code in production environments.",
+      "Collaborated with cross-functional teams to deliver high-quality software, in code reviews and other mediums.",
+      "Document components in our style guide to help drive consistency.",
     ],
   },
 ];
@@ -198,12 +151,12 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Peach Tree Counseling",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "A website to help people find a great therapist for them to work with. Includes various pages describing the business that is built for SEO.",
     tags: [
       {
-        name: "react",
+        name: "svelte",
         color: "blue-text-gradient",
       },
       {
@@ -211,32 +164,32 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "scss",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: peachtree,
+    source_code_link: "https://peachtreecounselingservice.com/",
   },
   {
-    name: "Job IT",
+    name: "Tomodachi",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Web game that plays like the classic game \"Tomogachi\" but with a planet instead. The game has a set amount of turns and depending how you care for your planet you will end up with a unique ending.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "graphql",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "jwt",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
+    image: tomodachi,
     source_code_link: "https://github.com/",
   },
   {
