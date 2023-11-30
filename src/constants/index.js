@@ -23,6 +23,8 @@ import {
   jobit,
   tripguide,
   threejs,
+  rails,
+  python
 } from "../assets";
 
 export const navLinks = [
@@ -52,11 +54,7 @@ const services = [
   {
     title: "Backend Developer",
     icon: backend,
-  },
-  {
-    title: "Content Creator",
-    icon: creator,
-  },
+  }
 ];
 
 const technologies = [
@@ -73,8 +71,8 @@ const technologies = [
     icon: javascript,
   },
   {
-    name: "TypeScript",
-    icon: typescript,
+    name: "Ruby on Rails",
+    icon: rails,
   },
   {
     name: "React JS",
@@ -105,8 +103,8 @@ const technologies = [
     icon: git,
   },
   {
-    name: "figma",
-    icon: figma,
+    name: "Python",
+    icon: python,
   },
   {
     name: "docker",
