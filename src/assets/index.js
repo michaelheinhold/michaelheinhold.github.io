@@ -1,4 +1,4 @@
-import logo from "./logo.svg";
+import logo from "./Mlogo.svg";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -22,9 +22,12 @@ import scss from "./tech/scss.png"
 
 import simplenexus from "./company/simplenexus.png";
 
+import taylor from "./taylor.png"
+import austin from "./austin.png"
+
 import peachtree from "./peachtree.png";
 import tomodachi from "./tomodachi.png";
-import tripguide from "./tripguide.png";
+import asl from "./asl.png";
 
 export {
   logo,
@@ -48,7 +51,9 @@ export {
   python,
   scss,
   simplenexus,
+  taylor,
+  austin,
   peachtree,
   tomodachi,
-  tripguide,
+  asl,
 };

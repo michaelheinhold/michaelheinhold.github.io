@@ -16,9 +16,11 @@ import {
   rails,
   scss,
   simplenexus,
+  taylor,
+  austin,
   peachtree,
   tomodachi,
-  tripguide,
+  asl,
 } from "../assets";
 
 export const navLinks = [
@@ -125,23 +127,23 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+      "He was conscious of the project scope as a whole and wrote code with the future in mind.\n He'll excel wherever he decides to go!",
+    name: "Taylor Hakes",
+    designation: "Technical Lead",
+    company: "Eve Financial",
+    image: taylor,
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+      "He not only carried his weight and more when it comes to the workload, but also helped the moral with his leaderlike mentality and team building attitude.",
+    name: "Austin Ewell",
+    designation: "Web Developer",
+    company: "Balance of Nature",
+    image: austin,
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+      "After Michael optimized our website, our traffic increased by 50%. We can't thank them enough!",
     name: "Lisa Wang",
     designation: "CTO",
     company: "456 Enterprises",
@@ -190,27 +192,27 @@ const projects = [
       },
     ],
     image: tomodachi,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/Johnson90cm/Tomodachi",
   },
   {
-    name: "Trip Guide",
+    name: "ASL Neural Network Translator",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A machine learning, neural network that takes feedback from your webcam on your computer and translates any ASL sign language into English live.",
     tags: [
       {
-        name: "nextjs",
+        name: "python",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "OpenCV",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "pytorch",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
+    image: asl,
     source_code_link: "https://github.com/",
   },
 ];

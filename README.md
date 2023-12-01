@@ -1,23 +1,20 @@
-# Build and Deploy a Fantastic 3D Portfolio Website with Three.js and React.js
-![3D Portfolio](https://i.ibb.co/9ykhLtM/Thumbnail.png)
+# Michael Heinhold
+Thank you for checking out my portfolio!
+I am currently working as a Software Engineer. I created this portfolio to help employers better know who I am and what I can do.
 
-### [🌟 Become a top 1% Next.js 13 developer in only one course](https://jsmastery.pro/next13)
-### [🚀 Land your dream programming job in 6 months](https://jsmastery.pro/masterclass)
+## Description
+My portfolio contains a couple sections to help understand me and my work.
+The first one is a quick description of my profession
+Next up you have a quick overview of my skills
+Then I have a section for my work experience, skills I know, and my past projects.
+Then I have testimonials of people I have worked with in the past, and
+Finally, I have a contact section that lets you reach out to me!
 
-## Introduction
-The most impressive websites in the world use 3D graphics and animations to bring their content to life. Learn how to build your own ThreeJS 3D Developer Portfolio today! 
- 
-In this course, you'll learn the following:
-- ThreeJS - a powerful 3D graphics library for rendering and animating the 3D model
-- React Three Fiber - a popular library for creating 3D graphics with ThreeJS in React
-- TailwindCSS - a popular utility-first CSS styling framework
-- Framer Motion - the most popular library used to bring your React website to life with animations
-You'll also learn how to:
-- Load, create and customize stunning 3D models and geometries with various lights, as well as understand the 3D world with a camera and positioning of an object in space.
-- Make your code reusable and scalable using Higher Order Components (HOCs) and other industry-standard best practices
-- Implement sending emails through a form on the website
-- Ensure responsiveness across all devices and improve your site's performance using Suspense and Preload.
+## Built with
+React \
+ThreeJS \
+Tailwind \
+JavaScript
 
-## Want to land your dream programming job in 3 - 6 months?
-⭐ JSM Masterclass Experience - https://jsmastery.pro/masterclass
-Become a Software Engineer. Guaranteed.
+## Deployed Page
+Click here to check it out! --> https://michaelheinhold.github.io/

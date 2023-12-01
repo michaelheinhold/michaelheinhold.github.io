@@ -31,15 +31,19 @@ const Contact = () => {
     e.preventDefault();
     setLoading(true);
 
+// 9PAaCtG4hrvM3abr_
+// service_n8zxrjq
+// template_iy9fmw2
+
     emailjs
       .send(
         import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
         import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
         {
           from_name: form.name,
-          to_name: "JavaScript Mastery",
+          to_name: "Michael Heinhold",
           from_email: form.email,
-          to_email: "sujata@jsmastery.pro",
+          to_email: "michael.heinhold@gmail.com",
           message: form.message,
         },
         import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
