@@ -105,7 +105,7 @@ const technologies = [
   {
     name: "scss",
     icon: scss,
-  }
+  },
 ];
 
 const experiences = [
@@ -143,10 +143,10 @@ const testimonials = [
   },
   {
     testimonial:
-      "After Michael optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
+      "Michael was able to get my website exactly where I wanted and exceeded my expectations. My website has allowed me to get my business out on the internet.",
+    name: "Stephanie Heinhold",
+    designation: "CEO",
+    company: "Peach Tree Counseling",
     image: "https://randomuser.me/api/portraits/women/6.jpg",
   },
 ];
@@ -213,7 +213,7 @@ const projects = [
       },
     ],
     image: asl,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/michaelheinhold/sign-language-translator",
   },
 ];
 
