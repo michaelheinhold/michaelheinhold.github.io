@@ -18,6 +18,7 @@ import {
   simplenexus,
   taylor,
   austin,
+  stephanie,
   peachtree,
   tomodachi,
   asl,
@@ -147,7 +148,7 @@ const testimonials = [
     name: "Stephanie Heinhold",
     designation: "CEO",
     company: "Peach Tree Counseling",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+    image: stephanie,
   },
 ];
 

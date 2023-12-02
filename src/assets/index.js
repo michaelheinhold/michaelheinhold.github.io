@@ -24,6 +24,7 @@ import simplenexus from "./company/simplenexus.png";
 
 import taylor from "./taylor.png"
 import austin from "./austin.png"
+import stephanie from "./stephanie.png"
 
 import peachtree from "./peachtree.png";
 import tomodachi from "./tomodachi.png";
@@ -53,6 +54,7 @@ export {
   simplenexus,
   taylor,
   austin,
+  stephanie,
   peachtree,
   tomodachi,
   asl,
